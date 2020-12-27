@@ -20,44 +20,44 @@ struct ContentView: View {
                 Spacer()
 
                 Text("Jabria")
-                    .font(.custom("BeautyMountainsPersonalUse-od7z.ttf", size: 50))
+                    .font(.custom("BeautyMountainsPersonalUse-od7z", size: 50))
                     .foregroundColor(.white)
                 
                 Text("Mostly Clear")
-                    .font(.custom("VeganStylePersonalUse-5Y58.ttf", size: 15))
+                    .font(.custom("VeganStylePersonalUse-5Y58", size: 15))
                     .foregroundColor(.white)
                 
                 HStack {
                     Text("12")
-                        .font(.custom("Montserrat-LightItalic.ttf", size: 100))
+                        .font(.custom("Montserrat-LightItalic", size: 100))
                         .foregroundColor(.white)
                     
                     Text("o")
-                        .font(.custom("Montserrat-LightItalic.ttf", size: 50))
+                        .font(.custom("Montserrat-LightItalic", size: 50))
                         .foregroundColor(.white)
                         .padding(.bottom, 50.0)
                 }
                 
                 HStack {
                     Text("Sunday")
-                        .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                        .font(.custom("Montserrat-BlackItalic", size: 20))
                         .foregroundColor(.white)
                     
                     Text("Today")
-                        .font(.custom("VeganStylePersonalUse-5Y58.ttf", size: 15))
+                        .font(.custom("VeganStylePersonalUse-5Y58", size: 15))
                         .foregroundColor(.white)
                     
                     
                     Spacer()
                     
                     Text("16")
-                        .font(.custom("VeganStylePersonalUse-5Y58.ttf", size: 15))
+                        .font(.custom("VeganStylePersonalUse-5Y58", size: 15))
                         .foregroundColor(.white)
                         .padding(.all)
                     
                     
                     Text("10")
-                        .font(.custom("VeganStylePersonalUse-5Y58.ttf", size: 15))
+                        .font(.custom("VeganStylePersonalUse-5Y58", size: 15))
                         .foregroundColor(.white)
                     
                 }
@@ -68,7 +68,7 @@ struct ContentView: View {
                         
                         VStack {
                             Text("Now")
-                                .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                                .font(.custom("Montserrat-BlackItalic", size: 20))
                                 .foregroundColor(.white)
                             
                             Image(systemName: "moon.stars.fill")
@@ -79,12 +79,12 @@ struct ContentView: View {
                             
                             HStack {
                                 Text("12")
-                                    .font(.custom("Montserrat-LightItalic.ttf", size: 20))
+                                    .font(.custom("Montserrat-LightItalic", size: 20))
                                     .foregroundColor(.white)
                                     .multilineTextAlignment(.trailing)
                                 
                                 Text("o")
-                                    .font(.custom("Montserrat-LightItalic.ttf", size: 10))
+                                    .font(.custom("Montserrat-LightItalic", size: 10))
                                     .foregroundColor(.white)
                                     .multilineTextAlignment(.leading)
                                     .padding(.bottom, 10.0)
@@ -94,7 +94,7 @@ struct ContentView: View {
                         
                         VStack {
                             Text("2AM")
-                                .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                                .font(.custom("Montserrat-BlackItalic", size: 20))
                                 .foregroundColor(.white)
                             
                             Image(systemName: "moon.stars.fill")
@@ -105,12 +105,12 @@ struct ContentView: View {
                             
                             HStack {
                                 Text("12")
-                                    .font(.custom("Montserrat-LightItalic.ttf", size: 20))
+                                    .font(.custom("Montserrat-LightItalic", size: 20))
                                     .foregroundColor(.white)
                                     .multilineTextAlignment(.trailing)
                                 
                                 Text("o")
-                                    .font(.custom("Montserrat-LightItalic.ttf", size: 10))
+                                    .font(.custom("Montserrat-LightItalic", size: 10))
                                     .foregroundColor(.white)
                                     .multilineTextAlignment(.leading)
                                     .padding(.bottom, 10.0)
@@ -120,7 +120,7 @@ struct ContentView: View {
                         
                         VStack {
                             Text("3AM")
-                                .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                                .font(.custom("Montserrat-BlackItalic", size: 20))
                                 .foregroundColor(.white)
                             
                             Image(systemName: "moon.stars.fill")
@@ -131,12 +131,12 @@ struct ContentView: View {
                             
                             HStack {
                                 Text("11")
-                                    .font(.custom("Montserrat-LightItalic.ttf", size: 20))
+                                    .font(.custom("Montserrat-LightItalic", size: 20))
                                     .foregroundColor(.white)
                                     .multilineTextAlignment(.trailing)
                                 
                                 Text("o")
-                                    .font(.custom("Montserrat-LightItalic.ttf", size: 10))
+                                    .font(.custom("Montserrat-LightItalic", size: 10))
                                     .foregroundColor(.white)
                                     .multilineTextAlignment(.leading)
                                     .padding(.bottom, 10.0)
@@ -146,7 +146,7 @@ struct ContentView: View {
                         
                         VStack {
                             Text("4AM")
-                                .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                                .font(.custom("Montserrat-BlackItalic", size: 20))
                                 .foregroundColor(.white)
                             
                             Image(systemName: "cloud.moon.fill")
@@ -157,12 +157,12 @@ struct ContentView: View {
                             
                             HStack {
                                 Text("11")
-                                    .font(.custom("Montserrat-LightItalic.ttf", size: 20))
+                                    .font(.custom("Montserrat-LightItalic", size: 20))
                                     .foregroundColor(.white)
                                     .multilineTextAlignment(.trailing)
                                 
                                 Text("o")
-                                    .font(.custom("Montserrat-LightItalic.ttf", size: 10))
+                                    .font(.custom("Montserrat-LightItalic", size: 10))
                                     .foregroundColor(.white)
                                     .multilineTextAlignment(.leading)
                                     .padding(.bottom, 10.0)
@@ -172,7 +172,7 @@ struct ContentView: View {
                         
                         VStack {
                             Text("5AM")
-                                .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                                .font(.custom("Montserrat-BlackItalic", size: 20))
                                 .foregroundColor(.white)
                             
                             Image(systemName: "cloud.moon.fill")
@@ -183,12 +183,12 @@ struct ContentView: View {
                             
                             HStack {
                                 Text("9")
-                                    .font(.custom("Montserrat-LightItalic.ttf", size: 20))
+                                    .font(.custom("Montserrat-LightItalic", size: 20))
                                     .foregroundColor(.white)
                                     .multilineTextAlignment(.trailing)
                                 
                                 Text("o")
-                                    .font(.custom("Montserrat-LightItalic.ttf", size: 10))
+                                    .font(.custom("Montserrat-LightItalic", size: 10))
                                     .foregroundColor(.white)
                                     .multilineTextAlignment(.leading)
                                     .padding(.bottom, 10.0)
@@ -198,7 +198,7 @@ struct ContentView: View {
                         
                         VStack {
                             Text("6AM")
-                                .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                                .font(.custom("Montserrat-BlackItalic", size: 20))
                                 .foregroundColor(.white)
                             
                             Image(systemName: "cloud.moon.fill")
@@ -209,12 +209,12 @@ struct ContentView: View {
                             
                             HStack {
                                 Text("9")
-                                    .font(.custom("Montserrat-LightItalic.ttf", size: 20))
+                                    .font(.custom("Montserrat-LightItalic", size: 20))
                                     .foregroundColor(.white)
                                     .multilineTextAlignment(.trailing)
                                 
                                 Text("o")
-                                    .font(.custom("Montserrat-LightItalic.ttf", size: 10))
+                                    .font(.custom("Montserrat-LightItalic", size: 10))
                                     .foregroundColor(.white)
                                     .multilineTextAlignment(.leading)
                                     .padding(.bottom, 10.0)
@@ -224,7 +224,7 @@ struct ContentView: View {
                         
                         VStack {
                             Text("6:40AM")
-                                .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                                .font(.custom("Montserrat-BlackItalic", size: 20))
                                 .foregroundColor(.white)
                             
                             Image(systemName: "sunrise.fill")
@@ -235,7 +235,7 @@ struct ContentView: View {
                             
                             HStack {
                                 Text("Sunrise")
-                                    .font(.custom("Montserrat-LightItalic.ttf", size: 20))
+                                    .font(.custom("Montserrat-LightItalic", size: 20))
                                     .foregroundColor(.white)
                                     .multilineTextAlignment(.trailing)
                                 
@@ -244,7 +244,7 @@ struct ContentView: View {
                         
                         VStack {
                             Text("7AM")
-                                .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                                .font(.custom("Montserrat-BlackItalic", size: 20))
                                 .foregroundColor(.white)
                             
                             Image(systemName: "cloud.fill")
@@ -255,12 +255,12 @@ struct ContentView: View {
                             
                             HStack {
                                 Text("9")
-                                    .font(.custom("Montserrat-LightItalic.ttf", size: 20))
+                                    .font(.custom("Montserrat-LightItalic", size: 20))
                                     .foregroundColor(.white)
                                     .multilineTextAlignment(.trailing)
                                 
                                 Text("o")
-                                    .font(.custom("Montserrat-LightItalic.ttf", size: 10))
+                                    .font(.custom("Montserrat-LightItalic", size: 10))
                                     .foregroundColor(.white)
                                     .multilineTextAlignment(.leading)
                                     .padding(.bottom, 10.0)
@@ -270,7 +270,7 @@ struct ContentView: View {
                         
                         VStack {
                             Text("8AM")
-                                .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                                .font(.custom("Montserrat-BlackItalic", size: 20))
                                 .foregroundColor(.white)
                             
                             Image(systemName: "cloud.fill")
@@ -281,12 +281,12 @@ struct ContentView: View {
                             
                             HStack {
                                 Text("10")
-                                    .font(.custom("Montserrat-LightItalic.ttf", size: 20))
+                                    .font(.custom("Montserrat-LightItalic", size: 20))
                                     .foregroundColor(.white)
                                     .multilineTextAlignment(.trailing)
                                 
                                 Text("o")
-                                    .font(.custom("Montserrat-LightItalic.ttf", size: 10))
+                                    .font(.custom("Montserrat-LightItalic", size: 10))
                                     .foregroundColor(.white)
                                     .multilineTextAlignment(.leading)
                                     .padding(.bottom, 10.0)
@@ -296,7 +296,7 @@ struct ContentView: View {
                         
                         VStack {
                             Text("9AM")
-                                .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                                .font(.custom("Montserrat-BlackItalic", size: 20))
                                 .foregroundColor(.white)
                             
                             Image(systemName: "cloud.fill")
@@ -307,12 +307,12 @@ struct ContentView: View {
                             
                             HStack {
                                 Text("12")
-                                    .font(.custom("Montserrat-LightItalic.ttf", size: 20))
+                                    .font(.custom("Montserrat-LightItalic", size: 20))
                                     .foregroundColor(.white)
                                     .multilineTextAlignment(.trailing)
                                 
                                 Text("o")
-                                    .font(.custom("Montserrat-LightItalic.ttf", size: 10))
+                                    .font(.custom("Montserrat-LightItalic", size: 10))
                                     .foregroundColor(.white)
                                     .multilineTextAlignment(.leading)
                                     .padding(.bottom, 10.0)
@@ -326,7 +326,7 @@ struct ContentView: View {
                 VStack {
                     HStack {
                         Text("Sunday")
-                            .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                            .font(.custom("BeautyMountainsPersonalUse-od7z", size: 20))
                             .foregroundColor(.white)
                         
                         Spacer()
@@ -340,18 +340,18 @@ struct ContentView: View {
                         Spacer()
                         
                         Text("17")
-                            .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                            .font(.custom("BeautyMountainsPersonalUse-od7z", size: 20))
                             .foregroundColor(.white)
                             .padding(.trailing)
                         
                         Text("11")
-                            .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                            .font(.custom("BeautyMountainsPersonalUse-od7z", size: 20))
                             .foregroundColor(.gray)
                     }
                     
                     HStack {
                         Text("Monday")
-                            .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                            .font(.custom("BeautyMountainsPersonalUse-od7z", size: 20))
                             .foregroundColor(.white)
                         
                         Spacer()
@@ -365,18 +365,18 @@ struct ContentView: View {
                         Spacer()
                         
                         Text("18")
-                            .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                            .font(.custom("BeautyMountainsPersonalUse-od7z", size: 20))
                             .foregroundColor(.white)
                             .padding(.trailing, 23.0)
                         
                         Text("9")
-                            .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                            .font(.custom("BeautyMountainsPersonalUse-od7z", size: 20))
                             .foregroundColor(.gray)
                     }
                     
                     HStack {
                         Text("Tuesday")
-                            .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                            .font(.custom("BeautyMountainsPersonalUse-od7z", size: 20))
                             .foregroundColor(.white)
                         
                         Spacer()
@@ -390,18 +390,18 @@ struct ContentView: View {
                         Spacer()
                         
                         Text("19")
-                            .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                            .font(.custom("BeautifulPeoplePersonalUse-dE0g", size: 20))
                             .foregroundColor(.white)
                             .padding(.trailing)
                         
                         Text("10")
-                            .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                            .font(.custom("BeautifulPeoplePersonalUse-dE0g", size: 20))
                             .foregroundColor(.gray)
                     }
                     
                     HStack {
                         Text("Wednesday")
-                            .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                            .font(.custom("BeautifulPeoplePersonalUse-dE0g", size: 20))
                             .foregroundColor(.white)
                         
                         Spacer()
@@ -415,18 +415,18 @@ struct ContentView: View {
                         Spacer()
                         
                         Text("20")
-                            .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                            .font(.custom("VeganStylePersonalUse-5Y58", size: 20))
                             .foregroundColor(.white)
                             .padding(.trailing)
                         
                         Text("12")
-                            .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                            .font(.custom("VeganStylePersonalUse-5Y58", size: 20))
                             .foregroundColor(.gray)
                     }
                     
                     HStack {
                         Text("Thursday")
-                            .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                            .font(.custom("VeganStylePersonalUse-5Y58", size: 20))
                             .foregroundColor(.white)
                         
                         Spacer()
@@ -440,18 +440,18 @@ struct ContentView: View {
                         Spacer()
                         
                         Text("20")
-                            .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                            .font(.custom("VeganStylePersonalUse-5Y58", size: 20))
                             .foregroundColor(.white)
                             .padding(.trailing)
                         
                         Text("12")
-                            .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                            .font(.custom("VeganStylePersonalUse-5Y58", size: 20))
                             .foregroundColor(.gray)
                     }
                     
                     HStack {
                         Text("Friday")
-                            .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                            .font(.custom("VeganStylePersonalUse-5Y58", size: 20))
                             .foregroundColor(.white)
                         
                         Spacer()
@@ -465,18 +465,18 @@ struct ContentView: View {
                         Spacer()
                         
                         Text("21")
-                            .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                            .font(.custom("VeganStylePersonalUse-5Y58", size: 20))
                             .foregroundColor(.white)
                             .padding(.trailing)
                         
                         Text("12")
-                            .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                            .font(.custom("VeganStylePersonalUse-5Y58", size: 20))
                             .foregroundColor(.gray)
                     }
                     
                     HStack {
                         Text("Saturday")
-                            .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                            .font(.custom("VeganStylePersonalUse-5Y58", size: 20))
                             .foregroundColor(.white)
                         
                         Spacer()
@@ -490,18 +490,18 @@ struct ContentView: View {
                         Spacer()
                         
                         Text("21")
-                            .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                            .font(.custom("VeganStylePersonalUse-5Y58", size: 20))
                             .foregroundColor(.white)
                             .padding(.trailing)
                         
                         Text("12")
-                            .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                            .font(.custom("VeganStylePersonalUse-5Y58", size: 20))
                             .foregroundColor(.gray)
                     }
                     
                     HStack {
                         Text("Sunday")
-                            .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                            .font(.custom("VeganStylePersonalUse-5Y58", size: 20))
                             .foregroundColor(.white)
                         
                         Spacer()
@@ -515,18 +515,18 @@ struct ContentView: View {
                         Spacer()
                         
                         Text("21")
-                            .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                            .font(.custom("VeganStylePersonalUse-5Y58", size: 20))
                             .foregroundColor(.white)
                             .padding(.trailing)
                         
                         Text("12")
-                            .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                            .font(.custom("VeganStylePersonalUse-5Y58", size: 20))
                             .foregroundColor(.gray)
                     }
                     
                     HStack {
                         Text("Monday")
-                            .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                            .font(.custom("VeganStylePersonalUse-5Y58", size: 20))
                             .foregroundColor(.white)
                         
                         Spacer()
@@ -540,12 +540,12 @@ struct ContentView: View {
                         Spacer()
                         
                         Text("21")
-                            .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                            .font(.custom("VeganStylePersonalUse-5Y58", size: 20))
                             .foregroundColor(.white)
                             .padding(.trailing)
                         
                         Text("11")
-                            .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                            .font(.custom("VeganStylePersonalUse-5Y58", size: 20))
                             .foregroundColor(.gray)
                     }
                     
